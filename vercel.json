@@ -5,7 +5,7 @@
     },
     "routes": [
         { "src": "/api/(.*)", "dest": "/app/public/index.php" },
-        { "src": "/(.*)", "dest": "/public/build/index.html" }
+        { "src": "/(.*)", "dest": "/resources/js/build/index.html" }
     ],
     "public": true,
     "buildCommand": "npm run build", 
