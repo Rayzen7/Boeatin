@@ -45,6 +45,7 @@
         @inertiaHead
     </head>
     <body class="font-sans antialiased bg-gray-100">
+        <div id="root"></div>
         @inertia
     </body>
 </html>
