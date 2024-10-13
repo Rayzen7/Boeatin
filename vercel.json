@@ -1,15 +1,15 @@
 {
     "version": 2,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+        "app/public/index.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
-        { "src": "/build/(.*)", "dest": "/public/build/" },
-        { "src": "/(.*)", "dest": "/api/index.php" }
+        { "src": "/api/(.*)", "dest": "/app/public/index.php" },
+        { "src": "/(.*)", "dest": "/public/build/index.html" }
     ],
     "public": true,
-    "buildCommand": "npm run build",
-    "outputDirectory": "public",
+    "buildCommand": "npm run build", 
+    "outputDirectory": "public/build",
     "env": {
         "APP_NAME": "Laravel",
         "APP_ENV": "production",
