@@ -76,7 +76,7 @@ const AddProduct = () => {
     };
 
     return (
-        <div className="flex bg-gray-100">
+        <div className="flex bg-gray-100 my-20">
             <Head title="AddProduct" />
             <div className="flex lg:flex-row flex-col justify-center items-center h-screen w-full lg:gap-0 gap-8 ">
                 <div className="flex justify-center items-center lg:w-1/3 w-[250px] lg:mr-4 mr-0 lg:mt-0 mt-[90%] bg-white rounded-lg p-4">
