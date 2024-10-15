@@ -81,7 +81,7 @@ const EditProduct = ({ product }) => {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100">
+        <div className="min-h-screen flex items-center justify-center bg-gray-100 my-20">
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-lg lg:w-full w-[320px] my-16">
                 <h2 className="text-2xl font-semibold mb-6 text-center">Edit Produk</h2>
                 <form onSubmit={handleSubmit}>
