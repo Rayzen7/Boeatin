@@ -18,7 +18,6 @@ const EditProduct = ({ product }) => {
     const [imagePreview, setImagePreview] = useState(product.img_Url || ""); // Preview dari produk yang ada atau kosong
     const [isUploading, setIsUploading] = useState(false);
 
-    // Update preview saat gambar dipilih
     useEffect(() => {
         if (image) {
             const imageURL = URL.createObjectURL(image);
