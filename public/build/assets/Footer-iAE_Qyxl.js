@@ -1,1 +1,0 @@
-import{j as t}from"./app-DUtIMScC.js";const l=()=>t.jsx("div",{className:"bg-black w-full h-[12vh] lg:h-[17vh] lg:mt-32 mt-20 text-white flex flex-col justify-center items-center",children:t.jsx("p",{className:"text-[13px] lg:text-[16px] font-poppins",children:"@Copyright Setio Nugraha 2024"})});export{l as default};

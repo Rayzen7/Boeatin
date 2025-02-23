@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="font-poppins fixed z-50 h-[11vh] w-full flex justify-center items-center"
     style={{backgroundColor:"rgba(0,0,0,0.3)"}}>
         <div className="text-white w-full justify-between relative flex items-center lg:px-10 px-8">
-            <h1 className="font-[600] lg:text-[32px] text-[28px]">Boeatin</h1>
+            <h1 className="font-[600] lg:text-[32px] text-[28px]">Rayzen7</h1>
             <div className={`${ulSetting} ${open ? 'animate-moveLeft opacity-100' : 'animate-moveRight opacity-0 invisible'} ${open ? 'visible' : 'invisible'} `}>
                 <a href="#"><p className="hover:scale-90 duration-300 transition-all hover:opacity-75">Home</p></a>
                 <a href="#products"><p className="hover:scale-90 duration-300 transition-all hover:opacity-75">Products</p></a>
